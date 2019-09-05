@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="java-design-pattern" />
         <module name="java-dynamic-proxy" />
+        <module name="java-jdk-sample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -15,6 +16,7 @@
       <module name="hello-world-dependencies" target="1.5" />
       <module name="java-design-pattern" target="1.8" />
       <module name="java-dynamic-proxy" target="1.8" />
+      <module name="java-jdk-sample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
