@@ -12,6 +12,7 @@
         <!-- 工程模块请随着项目的不断完善自行添加 -->
         <module>hello-world-dependencies</module>
         <module>java-dynamic-proxy</module>
+        <module>java-design-pattern</module>
     </modules>
 
     <properties>
