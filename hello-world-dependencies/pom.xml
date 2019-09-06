@@ -39,6 +39,11 @@
                 <version>3.21.0-GA</version>
             </dependency>
             <!-- java-dynamic proxy end-->
+            <dependency>
+                <groupId>com.sun.mail</groupId>
+                <artifactId>javax.mail</artifactId>
+                <version>1.5.6</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
