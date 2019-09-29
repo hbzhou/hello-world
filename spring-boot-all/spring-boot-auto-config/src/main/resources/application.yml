@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-boot-auto-config
+
+server:
+  port: 8804
+  servlet:
+    context-path: /api
+
+
+helloworld: true

@@ -11,6 +11,13 @@
     <artifactId>java-design-pattern</artifactId>
     <packaging>jar</packaging>
     <name>java-design-pattern</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>

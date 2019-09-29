@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: spring-boot-security
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-wz949qd557877lei3o.mysql.rds.aliyuncs.com:3306/runoob_db?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: ibest_admin
+    password: ibest_admin@2017!hh
+    hikari:
+      minimum-idle: 5
+      idle-timeout: 600000
+      maximum-pool-size: 10
+      auto-commit: true
+      pool-name: MyHikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+server:
+  port: 8806
+  servlet:
+    context-path: /api
+

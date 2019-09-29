@@ -13,6 +13,7 @@
         <module>hello-world-dependencies</module>
         <module>java-jdk-sample</module>
         <module>java-design-pattern</module>
+        <module>spring-boot-all</module>
     </modules>
 
     <properties>

@@ -6,9 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="java-design-pattern" />
-        <module name="java-dynamic-proxy" />
+        <module name="spring-boot-druid" />
+        <module name="spring-boot-aop" />
+        <module name="spring-boot-sms-security" />
         <module name="java-jdk-sample" />
+        <module name="spring-boot-auto-config" />
+        <module name="spring-boot-mybatis" />
+        <module name="spring-boot-email" />
+        <module name="spring-boot-security" />
+        <module name="java-design-pattern" />
+        <module name="spring-boot-admin" />
+        <module name="java-dynamic-proxy" />
+        <module name="spring-boot-shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +26,17 @@
       <module name="java-design-pattern" target="1.8" />
       <module name="java-dynamic-proxy" target="1.8" />
       <module name="java-jdk-sample" target="1.8" />
+      <module name="spring-boot-admin" target="1.8" />
+      <module name="spring-boot-all" target="1.8" />
+      <module name="spring-boot-aop" target="1.8" />
+      <module name="spring-boot-auto-config" target="1.8" />
+      <module name="spring-boot-druid" target="1.8" />
+      <module name="spring-boot-email" target="1.8" />
+      <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-security" target="1.8" />
+      <module name="spring-boot-security-sms" target="1.8" />
+      <module name="spring-boot-shiro" target="1.8" />
+      <module name="spring-boot-sms-security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
