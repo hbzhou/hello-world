@@ -1,0 +1,29 @@
+version: "3"
+services:
+   mysql:
+     image: mysql:5.6
+     volumes:
+       - $PWD/config:/etc/mysqlconfig.d
+       - $PWD/logs:/logs
+       - $PWD/data:/var/lib/mysql
+     ports:
+       - "3307:3306"
+     restart: always
+     container_name: mysql
+     environment:
+       MYSQL_ROOT_PASSWORD: 123456
+   redis:
+     image: redis:3.2
+     volumes:
+       - $PWD/data:/data
+     ports:
+       - "6379:6379"
+     restart: always
+     container_name: redis
+     command:
+       redis-server
+       --appendonly yes
+       --requirepass 123456
+
+
+

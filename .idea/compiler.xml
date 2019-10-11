@@ -13,6 +13,7 @@
         <module name="spring-boot-auto-config" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-email" />
+        <module name="spring-boot-docker" />
         <module name="spring-boot-security" />
         <module name="java-design-pattern" />
         <module name="spring-boot-admin" />
@@ -30,6 +31,7 @@
       <module name="spring-boot-all" target="1.8" />
       <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-auto-config" target="1.8" />
+      <module name="spring-boot-docker" target="1.8" />
       <module name="spring-boot-druid" target="1.8" />
       <module name="spring-boot-email" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
