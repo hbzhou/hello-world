@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-cloud-feign-consumer
+
+server:
+  port: 8903
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8901/eureka/
+feign:
+  hystrix:
+    enabled: true

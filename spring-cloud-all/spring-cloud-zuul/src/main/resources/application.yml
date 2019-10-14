@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-cloud-zuul
+
+server:
+  port: 8905
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8901/eureka/
+zuul:
+  routes:
+    spring-cloud-feign-provider: /api/**

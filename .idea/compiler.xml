@@ -6,22 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-feign-provider" />
+        <module name="spring-cloud-feign-consumer" />
         <module name="spring-boot-druid" />
-        <module name="spring-boot-aop" />
-        <module name="spring-boot-sms-security" />
-        <module name="java-jdk-sample" />
-        <module name="spring-boot-auto-config" />
-        <module name="spring-boot-mybatis" />
         <module name="spring-boot-email" />
-        <module name="spring-boot-docker" />
-        <module name="spring-boot-security" />
-        <module name="java-design-pattern" />
-        <module name="spring-boot-admin" />
-        <module name="java-dynamic-proxy" />
         <module name="spring-boot-shiro" />
+        <module name="spring-cloud-feign-pro" />
+        <module name="java-jdk-sample" />
+        <module name="spring-cloud-zuul" />
+        <module name="spring-boot-auto-config" />
+        <module name="spring-boot-sms-security" />
+        <module name="spring-boot-security" />
+        <module name="spring-boot-aop" />
+        <module name="spring-boot-docker" />
+        <module name="spring-cloud-eureka" />
+        <module name="java-dynamic-proxy" />
+        <module name="java-design-pattern" />
+        <module name="spring-cloud-feign" />
+        <module name="spring-boot-mybatis" />
+        <module name="spring-boot-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="docker-with-compose" target="1.8" />
       <module name="hello-world" target="1.8" />
       <module name="hello-world-dependencies" target="1.5" />
       <module name="java-design-pattern" target="1.8" />
@@ -39,6 +46,13 @@
       <module name="spring-boot-security-sms" target="1.8" />
       <module name="spring-boot-shiro" target="1.8" />
       <module name="spring-boot-sms-security" target="1.8" />
+      <module name="spring-cloud-all" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-feign" target="1.8" />
+      <module name="spring-cloud-feign-consumer" target="1.8" />
+      <module name="spring-cloud-feign-pro" target="1.8" />
+      <module name="spring-cloud-feign-provider" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

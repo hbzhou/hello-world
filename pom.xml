@@ -14,6 +14,8 @@
         <module>java-jdk-sample</module>
         <module>java-design-pattern</module>
         <module>spring-boot-all</module>
+        <module>spring-cloud-all</module>
+        <module>docker-with-compose</module>
     </modules>
 
     <properties>

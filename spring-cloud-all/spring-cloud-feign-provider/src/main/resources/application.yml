@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-feign-provider
+
+server:
+  port: 8902
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8901/eureka/

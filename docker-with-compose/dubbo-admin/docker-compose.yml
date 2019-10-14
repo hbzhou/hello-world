@@ -1,0 +1,13 @@
+version: '3'
+services:
+  dubbo-admin:
+    image: chenchuxin/dubbo-admin
+    restart: always
+    container_name: dubbo-admin
+    hostname: dubbo-admin
+    ports:
+      - 8089:8080
+    environment:
+      - dubbo.registry.address=zookeeper://mse-ecd283d1-p.zk.mse.aliyuncs.com:2181
+      - dubbo.admin.root.password=root
+      - dubbo.admin.guest.password=guest
