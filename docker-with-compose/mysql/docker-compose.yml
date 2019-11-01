@@ -1,0 +1,17 @@
+docker run -p 3306:3306 --name mymysql -v $PWD/conf:/etc/mysql/conf.d -v $PWD/logs:/logs -v $PWD/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.6
+
+version: '3'
+services:
+  mysql:
+    image: mysql:5.6
+    container_name: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    volumes:
+      - $PWD/conf:/etc/mysql/conf.d
+      - $PWD/logs:/logs
+      - $PWD/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD:123456
+      TZ: Asia/Shanghai
