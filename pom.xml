@@ -16,6 +16,7 @@
         <module>spring-boot-all</module>
         <module>spring-cloud-all</module>
         <module>docker-with-compose</module>
+        <module>flink-learning</module>
     </modules>
 
     <properties>

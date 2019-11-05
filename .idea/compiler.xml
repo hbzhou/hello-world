@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud-feign-provider" />
         <module name="spring-cloud-feign-consumer" />
         <module name="spring-boot-druid" />
         <module name="spring-boot-email" />
@@ -16,19 +15,27 @@
         <module name="spring-cloud-zuul" />
         <module name="spring-boot-auto-config" />
         <module name="spring-boot-sms-security" />
+        <module name="flink-words-count" />
         <module name="spring-boot-security" />
+        <module name="spring-boot-admin" />
         <module name="spring-boot-aop" />
         <module name="spring-boot-docker" />
-        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-feign-provider" />
         <module name="java-dynamic-proxy" />
         <module name="java-design-pattern" />
-        <module name="spring-cloud-feign" />
+        <module name="flink-kafka-stream" />
+        <module name="spring-cloud-eureka" />
         <module name="spring-boot-mybatis" />
-        <module name="spring-boot-admin" />
+        <module name="flinkwordscount" />
+        <module name="spring-cloud-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="docker-with-compose" target="1.8" />
+      <module name="flink-kafka-stream" target="1.8" />
+      <module name="flink-learning" target="1.8" />
+      <module name="flink-words-count" target="1.8" />
+      <module name="flinkwordscount" target="1.8" />
       <module name="hello-world" target="1.8" />
       <module name="hello-world-dependencies" target="1.5" />
       <module name="java-design-pattern" target="1.8" />
