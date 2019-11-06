@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="helloWorldService" class="com.itsz.small.spring.singleton.bean.HelloWorldService" scope="singleton"></bean>
+    <bean id="helloWorldPrototypeService" class="com.itsz.small.spring.singleton.bean.HelloWorldPrototypeService" scope="prototype"></bean>
+</beans>

@@ -17,6 +17,7 @@
         <module>spring-cloud-all</module>
         <module>docker-with-compose</module>
         <module>flink-learning</module>
+        <module>small-spring</module>
     </modules>
 
     <properties>

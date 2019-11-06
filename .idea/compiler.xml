@@ -10,21 +10,25 @@
         <module name="spring-boot-druid" />
         <module name="spring-boot-email" />
         <module name="spring-boot-shiro" />
+        <module name="small-spring-singleton" />
         <module name="spring-cloud-feign-pro" />
         <module name="java-jdk-sample" />
         <module name="spring-cloud-zuul" />
         <module name="spring-boot-auto-config" />
+        <module name="small-spring-v1 (1)" />
         <module name="spring-boot-sms-security" />
         <module name="flink-words-count" />
         <module name="spring-boot-security" />
         <module name="spring-boot-admin" />
         <module name="spring-boot-aop" />
+        <module name="small-spring-v2" />
         <module name="spring-boot-docker" />
         <module name="spring-cloud-feign-provider" />
         <module name="java-dynamic-proxy" />
         <module name="java-design-pattern" />
         <module name="flink-kafka-stream" />
         <module name="spring-cloud-eureka" />
+        <module name="small-spring-v1" />
         <module name="spring-boot-mybatis" />
         <module name="flinkwordscount" />
         <module name="spring-cloud-feign" />
@@ -41,6 +45,11 @@
       <module name="java-design-pattern" target="1.8" />
       <module name="java-dynamic-proxy" target="1.8" />
       <module name="java-jdk-sample" target="1.8" />
+      <module name="small-spring" target="1.8" />
+      <module name="small-spring-singleton" target="1.8" />
+      <module name="small-spring-v1" target="1.8" />
+      <module name="small-spring-v1 (1)" target="1.8" />
+      <module name="small-spring-v2" target="1.8" />
       <module name="spring-boot-admin" target="1.8" />
       <module name="spring-boot-all" target="1.8" />
       <module name="spring-boot-aop" target="1.8" />
