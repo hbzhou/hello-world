@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-feign-consumer" />
+        <module name="flink-mysql-stream" />
         <module name="spring-boot-druid" />
         <module name="spring-boot-email" />
         <module name="spring-boot-shiro" />
@@ -19,7 +20,7 @@
         <module name="spring-boot-sms-security" />
         <module name="flink-words-count" />
         <module name="spring-boot-security" />
-        <module name="spring-boot-admin" />
+        <module name="spring-boot-activiti" />
         <module name="spring-boot-aop" />
         <module name="small-spring-v2" />
         <module name="spring-boot-docker" />
@@ -28,16 +29,18 @@
         <module name="java-design-pattern" />
         <module name="flink-kafka-stream" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-feign" />
         <module name="small-spring-v1" />
         <module name="spring-boot-mybatis" />
         <module name="flinkwordscount" />
-        <module name="spring-cloud-feign" />
+        <module name="spring-boot-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="docker-with-compose" target="1.8" />
       <module name="flink-kafka-stream" target="1.8" />
       <module name="flink-learning" target="1.8" />
+      <module name="flink-mysql-stream" target="1.8" />
       <module name="flink-words-count" target="1.8" />
       <module name="flinkwordscount" target="1.8" />
       <module name="hello-world" target="1.8" />
@@ -50,6 +53,7 @@
       <module name="small-spring-v1" target="1.8" />
       <module name="small-spring-v1 (1)" target="1.8" />
       <module name="small-spring-v2" target="1.8" />
+      <module name="spring-boot-activiti" target="1.8" />
       <module name="spring-boot-admin" target="1.8" />
       <module name="spring-boot-all" target="1.8" />
       <module name="spring-boot-aop" target="1.8" />

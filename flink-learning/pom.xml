@@ -13,6 +13,7 @@
     <modules>
         <module>flink-words-count</module>
         <module>flink-kafka-stream</module>
+        <module>flink-mysql-stream</module>
     </modules>
     <properties>
         <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
@@ -25,6 +26,11 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.8</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

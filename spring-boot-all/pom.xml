@@ -22,6 +22,7 @@
         <module>spring-boot-security</module>
         <module>spring-boot-sms-security</module>
         <module>spring-boot-docker</module>
+        <module>spring-boot-activiti</module>
     </modules>
     <properties>
         <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
