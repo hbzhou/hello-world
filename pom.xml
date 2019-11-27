@@ -19,6 +19,7 @@
         <module>flink-learning</module>
         <module>small-spring</module>
         <module>spi-learning</module>
+        <module>netty-learning</module>
     </modules>
 
     <properties>

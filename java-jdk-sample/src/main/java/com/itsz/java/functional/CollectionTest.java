@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class CollectionTest {
@@ -145,6 +146,50 @@ public class CollectionTest {
     public void testJoining (){
         String collect = stream.map(Student::getName).collect(Collectors.joining(",", "[", "]"));
         System.out.println(collect);
+    }
+
+    @Test
+    public void testDistinct(){
+        int[] arr = {10,12,14,5,10,30, 50};
+
+        int min = Arrays.stream(arr).min().getAsInt();
+        int max = Arrays.stream(arr).max().getAsInt();
+
+        int[] newArr = Arrays.stream(arr).distinct().toArray();
+        for (int i = 0; i < newArr.length; i++) {
+            System.out.println(newArr[i]);
+        }
+
+    }
+
+
+    @Test
+    public void testArrayDistinct(){
+        int[] arr = {10,12,14,5,10,30, 50};
+        int[] newArr = Arrays.stream(arr).distinct().toArray();
+        System.out.println("new array after distinct: ");
+        Arrays.stream(newArr).forEach(System.out::println);
+        System.out.println("==========================");
+        int max = Arrays.stream(newArr).max().getAsInt();
+        int min  = Arrays.stream(newArr).min().getAsInt();
+
+        System.out.println("max:"+max);
+        System.out.println("min:"+min);
+    }
+
+
+    @Test
+    public void testArrayCombine(){
+        int[] arr = {10,12,14,5,10,30,50,0};
+        int [] arrNew = new int[4];
+
+        System.arraycopy(arr,0, arrNew, 0, arrNew.length);
+
+        for (int i = 0; i < arrNew.length; i++) {
+            System.out.println(arrNew[i]);
+        }
+
+
     }
 
 
