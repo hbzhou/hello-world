@@ -40,8 +40,10 @@ public class NettyWebSocketClient {
     public static void main(String[] args) throws URISyntaxException, SSLException, InterruptedException, UnsupportedEncodingException {
         Credentials credentials = new PublicKeyCredentials("D:\\Jeremy\\spring\\hello-world\\netty-learning\\netty-websocket-server\\src\\main\\resources\\d9cc38f9-55d5-4ca6-80a2-37b64da603bb.pem");
 
-        URI uri = new URI(WSS + "://" + HOSTNAME + "/stream?auth=" + URLEncoder.encode(
-                credentials.getScheme() + " " + Base64.encodeBytes(credentials.getToken().getBytes()), "ISO-8859-1"));
+      /*  URI uri = new URI(WSS + "://" + HOSTNAME + "/stream?auth=" + URLEncoder.encode(
+                credentials.getScheme() + " " + Base64.encodeBytes(credentials.getToken().getBytes()), "ISO-8859-1"));*/
+
+        URI uri = new URI(URL);
         String scheme = uri.getScheme() == null ? "ws" : uri.getScheme();
         final String host = uri.getHost() == null ? "127.0.0.1" : uri.getHost();
         final int port;
