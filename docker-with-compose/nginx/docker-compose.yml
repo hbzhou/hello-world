@@ -1,0 +1,33 @@
+version: '3.1'
+services:
+  nginx:
+    restart: always
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - 8081:80
+    volumes:
+      - /home/jeremy/nginx/conf.d:/etc/nginx/conf.d
+      - /home/jeremy/nginx/conf/nginx.conf:/ect/nginx/nginx.conf
+      - /home/jeremy/nginx/logs:/var/log/nginx
+      - /home/jeremy/nginx/html:/usr/share/nginx/html
+    links:
+      - tomcat_01:tomcat_01
+      - tomcat_02:tomcat_02
+    depends_on:
+      - tomcat_01
+      - tomcat_02
+  tomcat_01:
+    restart: always
+    image: tomcat:latest
+    container_name: tomcat_01
+    volumes:
+      - /home/jeremy/tomcat_01/logs:/var/log/tomcat
+      - /home/jeremy/tomcat_01/webapps:/usr/local/tomcat/webapps
+  tomcat_02:
+    restart: always
+    image: tomcat:latest
+    container_name: tomcat_02
+    volumes:
+      - /home/jeremy/tomcat_02/logs:/var/log/tomcat
+      - /home/jeremy/tomcat_02/webapps:/usr/local/tomcat/webapps

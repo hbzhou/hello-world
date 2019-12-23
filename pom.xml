@@ -20,6 +20,7 @@
         <module>small-spring</module>
         <module>spi-learning</module>
         <module>netty-learning</module>
+        <module>data-structure-algorithm</module>
     </modules>
 
     <properties>

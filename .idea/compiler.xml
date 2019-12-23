@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink-words-count" />
+        <module name="data-structure-learning" />
         <module name="good-printer" />
         <module name="netty-protobuf" />
         <module name="spring-cloud-eureka" />
@@ -49,6 +50,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bad-printer" target="1.8" />
+      <module name="data-structure-algorithm" target="1.8" />
+      <module name="data-structure-learning" target="1.8" />
       <module name="docker-with-compose" target="1.8" />
       <module name="flink-kafka-stream" target="1.8" />
       <module name="flink-learning" target="1.8" />
