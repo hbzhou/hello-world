@@ -4,22 +4,22 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.itsz</groupId>
-        <artifactId>hello-world</artifactId>
+        <artifactId>netty-learning</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-    <artifactId>netty-learning</artifactId>
-    <packaging>pom</packaging>
-    <name>netty-learning</name>
-    <modules>
-        <module>netty-hello-world</module>
-        <module>netty-http-server</module>
-        <module>netty-group-chat</module>
-        <module>netty-websocket-server</module>
-        <module>netty-protobuf</module>
-        <module>netty-rpc</module>
-        <module>netty-binary-decode</module>
-        <module>netty-fast-protocol</module>
-    </modules>
+    <artifactId>netty-fast-protocol</artifactId>
+    <name>netty-fast-protocol</name>
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.36.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
