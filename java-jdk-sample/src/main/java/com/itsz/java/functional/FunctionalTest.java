@@ -77,6 +77,22 @@ public class FunctionalTest {
 
     }
 
+    @Test
+    public void testFunctionalInterface() {
+        Calculator add = (a, b) -> a + b;
+        Calculator subtraction = (a, b) -> a - b;
+        Calculator multiply = (a, b) -> a * b;
+        Calculator divided = (a, b) -> b != 0 ? a / b : 0;
+
+        System.out.println(add.calculate(23, 23));
+        System.out.println(subtraction.calculate(34, 32));
+        System.out.println(multiply.calculate(3, 5));
+        System.out.println(divided.calculate(8, 2));
+
+    }
+
+
+
 }
 
 

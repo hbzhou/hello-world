@@ -1,0 +1,79 @@
+#key word, trcs, quoteNameSuffix, issueNameSuffix, outOfScope
+Common Stock,Ordinary Shares,ORD,Ord Shs,
+American Depository Receipts,American Depository Receipts,ADR,ADR,
+American Depository Shares,American Depository Receipts,ADR,ADR,
+COM,Ordinary Shares,ORD,Ord Shs,
+Common,Ordinary Shares,ORD,Ord Shs,
+Common Shares,Ordinary Shares,ORD,Ord Shs,
+Common Stock Ex Distribution When Issued,Ordinary Shares,ORD,Ord Shs,
+COMMON STOCKS,Ordinary Shares,ORD,Ord Shs,
+Commonstock,Ordinary Shares,ORD,Ord Shs,
+CUMULATIVE REDEEMABLE PFD PERPETUAL,Preference preferred shares,PRF,Pref Shs,
+Cumulative Trust Preferred Securities,,,,OOS
+ETF,Exchange-Traded Funds,,,OOS
+Exchange Traded Fund,Exchange-Traded Funds,,,OOS
+Global depository receipts,Global Depository Receipts,GDR,GDR,
+Index Fund,Close-Ended Fund,,,OOS
+Limited Unit,Units,UNT,Units,
+Limited United,Units,UNT,Units,
+LOW EXERCISE PRICE WT,Company Warrants,,,OOS
+MUNIFUND TERM PFD SHS,Preference preferred shares,PRF,Pref Shs,
+New Common Stock,Ordinary Shares,ORD,Ord Shs,
+NON VOTING CONV PFD SHS REG S,Preference preferred shares,PRF,Pref Shs,
+Ordinary Shares,Ordinary Shares,ORD,Ord Shs,
+PFD CONV,Preference preferred shares,PRF,Pref Shs,
+Preferred,Preference preferred shares,PRF,Pref Shs,
+preferred stock,Preference preferred shares,PRF,Pref Shs,
+Quarterly Interest Bonds,BOND,,,OOS
+Reg Shares B,Ordinary Shares,ORD,Ord Shs,
+Registry Shares,Ordinary Shares,ORD,Ord Shs,
+rights,Rights,RTS,Rights,
+Senior Notes,SENIOR,,,OOS
+Sponsored ADR,American Depository Receipts,ADR,ADR,
+SPONSORED ADR REPSTG,American Depository Receipts,ADR,ADR,
+SPONSORED ADR REPSTG SER B SHS,American Depository Receipts,ADR,ADR,
+Sponsored American Depository Receipt,American Depository Receipts,ADR,ADR,
+Term Preferred Shares,Preference preferred shares,PRF,Pref Shs,
+Tr UNIT,Units,UNT,Units,
+Trust Preferred Securities,,,,OOS
+Trust Units,Units,UNT,Units,
+Unit,Units,UNT,Units,
+Units,Units,UNT,Units,
+Units Non Voting Depository Receipt,Thai Non-Voting Depository Receipts,NVDR,NVDR,
+Unsponsored American Depository Receipt,American Depository Receipts,ADR,ADR,
+Warrant,Company Warrants,,,OOS
+Warrants,Company Warrants,,,OOS
+WT,Company Warrants,,,OOS
+Fund,,CEF,,OOS
+Subordinated Note,,ELN,,OOS
+Notes,,ELN,,OOS
+ETN,,ETN,,OOS
+American Depositary Shares,American Depository Receipts,ADR,ADR,
+ADS,American Depository Receipts,ADR,ADR,
+American Depositary Share,American Depository Receipts,ADR,ADR,
+ADR,American Depository Receipts,ADR,ADR,
+Depositary Shares,Depository Receipts,DS,Depository Shares,
+Depository Receipt,Depository Receipts,DR,Depository Receipts,
+Ordinary Share,Ordinary Shares,ORD,Ord Shs,
+Variable Voting Shares,Ordinary Shares,ORD,Ord Shs,
+Subordinate Voting Shares,Ordinary Shares,ORD,Ord Shs,
+Restricted Voting Shares,Ordinary Shares,ORD,Ord Shs,
+Right,Rights,RTS,Rights,
+Subscription Rights,Subscription Rights,SUBSRTS,Subscription Rights,
+ADRs,American Depository Receipts,ADR,ADR,
+Ordinary / Common Shares,Ordinary Shares,ORD,Ord Shs,
+Participating Preference Shares,Preference preferred shares,PRF,Pref Shs,
+American Depositary Preference Shares,American Depository Receipts,ADR,ADR,
+Class A Preferred Stock,Preference preferred shares,PRF,Pref Shs,
+Redeemable Preferred Stk,Preference preferred shares,PRF,Pref Shs,
+Equity Shares,Ordinary Shares,ORD,Ord Shs,
+Series 1 Common Stock,Ordinary Shares,ORD,Ord Shs,
+Class A Common Shares of Beneficial Interest,Ordinary Shares,ORD,Ord Shs,
+Common Stock,Ordinary Shares,ORD,Ord Shs,
+Class A Common Shares,Ordinary Shares,ORD,Ord Shs,
+Class B Common Shares,Ordinary Shares,ORD,Ord Shs,
+Shares of Beneficial Interest,Ordinary Shares,ORD,Ord Shs,
+Ordinary Shares,Ordinary Shares,ORD,Ord Shs,
+Paired Shares,Ordinary Shares,ORD,Ord Shs,
+Non-Voting Shares,Ordinary Shares,ORD,Ord Shs,
+American Depositary Shares,American Depository Receipts,ADR,ADR,

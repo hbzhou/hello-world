@@ -1,0 +1,185 @@
+#COMPANYKEYWORDS, TRCS, quoteNameSuffix(NOTUSE), instrumentNameSuffix(NOTUSE), isOOS (DONOT Change This Line)
+Com,Ordinary Shares,ORD,Ord Shs,
+Common,Ordinary Shares,ORD,Ord Shs,
+Common Shares,Ordinary Shares,ORD,Ord Shs,
+Common Stock,Ordinary Shares,ORD,Ord Shs,
+Ordinary,Ordinary Shares,ORD,Ord Shs,
+Ordinary Share,Ordinary Shares,ORD,Ord Shs,
+Ordinary Shares,Ordinary Shares,ORD,Ord Shs,
+Ordinary Shs,Ordinary Shares,ORD,Ord Shs,
+ADR,American Depository Receipts,ADR,ADR,
+ADS,American Depository Receipts,ADR,ADR,
+American Depositary Receipt,American Depository Receipts,ADR,ADR,
+American Depositary Receipts,American Depository Receipts,ADR,ADR,
+American Depositary Share,American Depository Receipts,ADR,ADR,
+American Depositary Shares,American Depository Receipts,ADR,ADR,
+American Depository Receipt,American Depository Receipts,ADR,ADR,
+American Depository Shares,American Depository Receipts,ADR,ADR,
+New York Registry Shares,American Depository Receipts,NEW YORK REG,New York Registry Shs,
+American Depositary Reciept,American Depository Receipts,ADR,ADR,
+American Despository Receipt,American Depository Receipts,ADR,ADR,
+Chess Depositary Interests,	CHESS Depository Interests,	CDI,Chess Depositary Interests,
+Chess Depository Interests,	CHESS Depository Interests,	CDI,Chess Depositary Interests,
+Conv Perpetual Pfd,	Convertible Preference Shares,	PERP CPR,	Perpetual Conv Perf,
+Convertible Cumulative Preferred Stock,	Convertible Preference Shares,	CUM CPR,	Cumulative Conv Pref,
+Convertible Perpetual Preferred Stock,	Convertible Preference Shares,	PERP CPR,	Perpetual Conv Pref,
+Convertible Preferred,	Convertible Preference Shares,	CPR,	Conv Pref,
+Convertible Preferred Shares,	Convertible Preference Shares,	CPR,	Conv Pref,
+Convertible Preferred Stock,	Convertible Preference Shares,	CPR,	Conv Pref,
+Cum Perp Pfd Conv,	Convertible Preference Shares,	CUM PERP CPR,	Cumulative Perpetual Conv Pref,
+Cumulative Convertible Preferred Stock,	Convertible Preference Shares,	CUM CPR,	Cumulative Conv Pref,
+Perp Cum Convertible Pfd, 	Convertible Preference Shares,	PERP Cum CPR,	Perpetual Cumulative Conv Pref,
+Perp Pfd Conv,	Convertible Preference Shares,	PERP CPR,	Perpetual Conv Pref	,
+Pfd Conv,	Convertible Preference Shares,	CPR,	Conv Pref,
+Conv Pfd,	Convertible Preference Shares,	CPR,	Conv Pref,
+Preferred Conv,	Convertible Preference Shares,	CPR,	Conv Pref,
+Preferred Convertible,	Convertible Preference Shares,	CPR,	Conv Pref,
+Dep Shs,	Depository Receipts,	DRC,	DRC,
+Depositary Receipts,	Depository Receipts,	DRC,	DRC,
+Depositary Share,	Depository Receipts,	DRC,	DRC,
+Depositary Shares,	Depository Receipts,	DRC,	DRC,
+Depositary Shs,	Depository Receipts,	DRC,	DRC,
+Depository Sh,	Depository Receipts,	DRC,	DRC,
+Depositary Sh,	Depository Receipts,	DRC,	DRC,
+Depository Shs Repstg,	Depository Receipts,	DRC,	DRC,
+GDR,	GDR,	GDR,	GDR,
+Global Depositary Receipt,	Global Depository Receipts,	GDR,	GDR,
+Global Depositary Receipt,	Global Depository Receipts,	GDR,	GDR,
+Global Depositary Receipts,	Global Depository Receipts,	GDR,	GDR,
+Global Depositary Share,	Global Depository Receipts,	GDR,	GDR,
+Global Depositary Shares,	Global Depository Receipts,	GDR,	GDR,
+Global Depository Receipt,	Global Depository Receipts,	GDR,	GDR,
+Global Depository Receipts,	Global Depository Receipts,	GDR,	GDR,
+NON -VOTING DEPOSITORY RECEIPT,	Thai Non-Voting Depository Receipts,	NVDR,	Non-Voting DR,
+NON -VOTING DEPOSITORY RECEIPTS,	Thai Non-Voting Depository Receipts,	NVDR,	Non-Voting DR,
+Non Vtg Dep Rcpt,	Thai Non-Voting Depository Receipts,	NVDR,	Non-Voting DR,
+Non-Voting Depositary Receipt,	Thai Non-Voting Depository Receipts,	NVDR,	Non-Voting DR,
+Non-Voting Depositary Receipts,	Thai Non-Voting Depository Receipts,	NVDR,	Non-Voting DR,
+Non-Voting Depository Receipt,	Thai Non-Voting Depository Receipts,	NVDR,	Non-Voting DR,
+ETF,,,,OOS
+Exchange Traded Fund ,,,,OOS
+Fund,,,,OOS
+Note,,,,OOS
+Trust Preferred Securities,,,,OOS
+Warrant,,,,OOS
+Warrants,,,,OOS
+WT,,,,OOS
+WTS,,,,OOS
+Cum Redeemable Perpetual Preferred Stock,	Preference Shares,	CUM RED PREP PRF,	Cumulative Redeemable Perpetual Pref Shs,
+Cumulative Conv Pfd,	Preference Shares,	CUM CPR,	Cumulative Conv Pref,
+Cumulative Convertible Preferred Units,	Preference Shares,	CUM CPR,	Cumulative Conv Pref,
+Cumulative Preferred,	Preference Shares,	CUM PRF,	Cumulative Pref Shs,
+Cumulative Preferred Stock,	Preference Shares,	CUM PRF,	Cumulative Pref Shs,
+Non-Cumulative Preferred Stock,	Preference Shares,	NON CUM PRF,	Non-Cumulative Preferred Shs,
+Cumulative Redeemable Preferred Stock,	Preference Shares,	CUM RED PRF,	Cumulative Redeemable Pref Shs,
+Non Cum Perpetual Pfd,	Preference Shares,	NON CUM PERP PRF,	Non Cumulative Perpetual Pref Shs,
+Non Cum Pfd,	Preference Shares,	NON CUM PRF,	Non-Cumulative Preferred Shs,
+Non Cumulative Pref,	Preference Shares,	NON CUM PRF,	Non-Cumulative Preferred Shs,
+Non Cum Preferred,	Preference Shares,	NON CUM PRF,	Non-Cumulative Preferred Shs,
+Non-Cumulative Pfd,	Preference Shares,	NON CUM PRF,	Non-Cumulative Preferred Shs,
+Non-Cumulative Preferred Stock,	Preference Shares,	NON CUM PRF,	Non-Cumulative Preferred Shs,
+PERP PFD,	Preference Shares,	PERP PRF,	Perpetual Pref Shs,
+Perpetual Preferred,	Preference Shares,	PERP PRF,	Perpetual Pref Shs,
+Perpetual Preferred Convertible,	Preference Shares,	PERP CPR,	Perpetual Conv Pref,
+Perpetual Preference Shares,	Preference Shares,	PERP PRF,	Perpetual Pref Shs,
+Perpetual Pref,	Preference Shares,	PERP PRF,	Perpetual Pref Shs,
+Pfd,	Preference Shares,	PRF,	Pref Shs,
+Pfd Stk,	Preference Shares,	PRF,	Pref Shs,
+Pref,	Preference Shares,	PRF,	Pref Shs,
+Preference Shares,	Preference Shares,	PRF,	Pref Shs,
+Preferred,	Preference Shares,	PRF,	Pref Shs,
+Preferred Shares,	Preference Shares,	PRF,	Pref Shs,
+Preferred Stock,	Preference Shares,	PRF,	Pref Shs,
+Non-Cumulative Monthly Income Preferred,	Preference Shares,	NON CUM PRF,	Non Cumulative Monthly Income Pref Shs,
+Common Units representing Limited Partner Interests, UNT, COM UNT, Common Units,
+Common Units representing Limited Partnership, UNT, COM UNT, Common Units,
+Common Units,	Units,	COM UNT,	Common Units,
+Limited Partnership,	Units,	UNT,	Limited Partnership Units,
+Unit,	Units,	UNT,	Units,
+Units,	Units,	UNT,	Units,
+Contingent Value Right,	Rights,	CON VAL RTS,	Contingent Value Rights,
+Rights,	Rights,	RTS,	Rights,
+Ordinary / Common Shares,Ordinary Shares,ORD,Ord Shs,
+Participating Preference Shares,Preference preferred shares,PRF,Pref Shs,
+American Depositary Preference Shares,American Depository Receipts,ADR,ADR,
+Class A Preferred Stock,Preference preferred shares,PRF,Pref Shs,
+Redeemable Preferred Stk,Preference preferred shares,PRF,Pref Shs,
+Equity Shares,Ordinary Shares,ORD,Ord Shs,
+Series 1 Common Stock,Ordinary Shares,ORD,Ord Shs,
+Class A Common Shares of Beneficial Interest,Ordinary Shares,ORD,Ord Shs,
+Common Stock,Ordinary Shares,ORD,Ord Shs,
+Class A Common Shares,Ordinary Shares,ORD,Ord Shs,
+Class B Common Shares,Ordinary Shares,ORD,Ord Shs,
+Shares of Beneficial Interest,Ordinary Shares,ORD,Ord Shs,
+Ordinary Shares,Ordinary Shares,ORD,Ord Shs,
+Paired Shares,Ordinary Shares,ORD,Ord Shs,
+Non-Voting Shares,Ordinary Shares,ORD,Ord Shs,
+American Depositary Shares,American Depository Receipts,ADR,ADR,
+
+#TRCSPERMID,Quote Abbreviation,Instrument Abbreviation (DONOT Change This Line)
+300281,ORD,Ord Shs
+302539,ORD,Ord Shs
+302364,ORD,Ord Shs
+302365,ORD,Ord Shs
+302540,ORD,Ord Shs
+302363,SUBS RCPT,Subscription Receipts
+302538,STRIP VVPR,Strip VVPR
+302541,ORD,Ord Shs
+1000220527,REDEMPT SHS,Redemption Shares
+302035,PAR,Par Shs
+302113,PAR,Par Shs
+302043,UNT,Units
+302548,UNT,Units
+302549,UNT,Units
+302035,UNT,Units
+303307,IDS,Income Deposit Securities 
+300089,DR,Depository Receipts 
+302110,DR,Depository Receipts 
+302107,DR,Depository Receipts 
+300016,ADR,ADR
+300136,GDR,GDR
+300106,EDR,EDR
+302542,CEDEAR,CEDEAR
+300152,IDR,IDR 
+302544,SDR,SDR
+302366,BDR,BDR
+303220,PDR,PDR
+302106,CDI,CDI
+302369,CDI,CDI
+302368,CDI,CDI
+302543,NVDR,Non-Voting DR 
+300413,RTS,Rights
+302545,SUBS RTS,Subscription Rights
+300295,SUBS RTS,Subscription Rights
+302547,SUBS RTS,Subscription Rights
+1001209701,PAID SUBSCR SHS,Paid Subscription Shares
+300246,PRF,Pref Shs
+300245,PRF,Pref Shs
+302115,PRF,Pref Shs
+302116,PRF,Pref Shs
+302390,PRF,Pref Shs
+302391,PRF,Pref Shs
+302393,PRF,Pref Shs
+302394,PRF,Pref Shs
+300075,PRF,Pref Shs
+303258,PRF,Pref Shs
+303259,PRF,Pref Shs
+303260,PRF,Pref Shs
+303261,PRF,Pref Shs
+303262,PRF,Pref Shs
+303263,PRF,Pref Shs
+303264,PRF,Pref Shs
+303265,PRF,Pref Shs
+302392,PRF,Pref Shs
+303266,PRF,Pref Shs
+303267,PRF,Pref Shs
+303268,PRF,Pref Shs
+303269,PRF,Pref Shs
+303270,PRF,Pref Shs
+303271,PRF,Pref Shs
+303272,PRF,Pref Shs
+303273,PRF,Pref Shs
+303306,PRF,Pref Shs
+302119,SVGS,Saving Shs
+302367,PRF REC,Pref Receipts
+302148,ELN,ELN 
