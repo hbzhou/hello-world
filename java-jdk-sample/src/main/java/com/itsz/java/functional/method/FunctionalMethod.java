@@ -4,6 +4,7 @@ package com.itsz.java.functional.method;
 import sun.rmi.runtime.Log;
 
 import java.util.Objects;
+import java.util.Random;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
@@ -56,6 +57,8 @@ public class FunctionalMethod {
     public static void main(String[] args) {
         LogicTreeNode logicTree = FunctionalMethod.createLogicTree();
         System.out.println(logicTree.calculate(11));
+        int i = new Random().nextInt(101);
+
     }
 
 }

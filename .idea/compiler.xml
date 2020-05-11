@@ -9,40 +9,42 @@
         <module name="spring-cloud-feign-provider" />
         <module name="flink-words-count" />
         <module name="good-printer" />
-        <module name="small-spring-v2" />
         <module name="netty-protobuf" />
         <module name="flink-mysql-stream" />
         <module name="spring-boot-druid" />
         <module name="spring-boot-admin" />
-        <module name="netty-group-chat" />
+        <module name="bad-printer" />
         <module name="spring-boot-activiti" />
+        <module name="spring-boot-mybatis" />
         <module name="netty-fast-protocol" />
-        <module name="spring-boot-auto-config" />
+        <module name="small-spring-v2" />
         <module name="small-spring-v1" />
         <module name="small-spring-singleton" />
         <module name="spring-boot-shiro" />
         <module name="spring-boot-sms-security" />
-        <module name="spring-boot-aop" />
+        <module name="flink-kafka-stream" />
         <module name="netty-http-server" />
         <module name="flinkwordscount" />
-        <module name="spring-boot-mybatis" />
-        <module name="java-dynamic-proxy" />
         <module name="netty-websocket-server" />
+        <module name="spring-boot-aop" />
+        <module name="java-dynamic-proxy" />
         <module name="small-spring-v1 (1)" />
         <module name="spring-boot-docker" />
-        <module name="flink-kafka-stream" />
+        <module name="netty-group-chat" />
         <module name="spring-cloud-feign" />
         <module name="interface" />
         <module name="spring-cloud-feign-pro" />
+        <module name="spring-boot-my-starter" />
         <module name="invoker" />
         <module name="netty-binary-decode" />
         <module name="spring-boot-docker (1)" />
         <module name="spring-boot-email" />
-        <module name="spring-cloud-feign-consumer" />
+        <module name="spring-boot-auto-config" />
         <module name="spring-cloud-zuul" />
+        <module name="spring-cloud-feign-consumer" />
         <module name="spring-boot-security" />
         <module name="spring-cloud-eureka" />
-        <module name="bad-printer" />
+        <module name="spring-boot-DataQL" />
         <module name="java-jdk-sample" />
         <module name="netty-rpc" />
         <module name="java-design-pattern" />
@@ -88,11 +90,13 @@
       <module name="spring-boot-all" target="1.8" />
       <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-auto-config" target="1.8" />
+      <module name="spring-boot-DataQL" target="1.8" />
       <module name="spring-boot-docker" target="1.8" />
       <module name="spring-boot-docker (1)" target="1.8" />
       <module name="spring-boot-druid" target="1.8" />
       <module name="spring-boot-email" target="1.8" />
       <module name="spring-boot-import-anno" target="1.8" />
+      <module name="spring-boot-my-starter" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-security" target="1.8" />
       <module name="spring-boot-security-sms" target="1.8" />
