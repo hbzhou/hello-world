@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  a20617-poc-demo-camundah2-service:
+    image: 608014515287.dkr.ecr.us-east-1.amazonaws.com/a206171-ds2-poc-camunda-h2db:0.0.1
+    labels:
+      - 'camundah2'
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: /ecs/a20617-poc-demo-camundah2-service
+        awslogs-region: us-east-1
+        awslogs-stream-prefix: ecs
+    ports:
+      - '81:81'
+      - '1521:1521'
+  a20617-poc-demo-camundaoptes-service:
+    image: 608014515287.dkr.ecr.us-east-1.amazonaws.com/a206171-ds2-poc-camunda-optes:6.6.2
+    labels:
+      - 'camundaoptes'
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: /ecs/a20617-poc-demo-camundaoptes-service
+        awslogs-region: us-east-1
+        awslogs-stream-prefix: ecs
+    expose:
+      - '9200'
+      - '9300'
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+    environment:
+      - discovery.type=single-node
+      - cluster.name=elasticsearch
+      - node.name=elasticsearch

@@ -1,0 +1,32 @@
+version: 1
+task_definition:
+  ecs_network_mode: awsvpc
+  task_role_arn: arn:aws:iam::608014515287:role/206171-ecat-poc-camunda-ecsTaskExecuteRole
+  task_execution_role: arn:aws:iam::608014515287:role/ecsTaskExecutionRole
+  task_size:
+    cpu_limit: 2048
+    mem_limit: 4GB
+  services:
+    a20617-poc-demo-camundabpm-service:
+      essential: true
+      cpu_shares: 1024
+      mem_limit: 2GB
+    a20617-poc-demo-camundaopt-service:
+      essential: false
+      cpu_shares: 512
+      mem_limit: 1GB
+    a20617-poc-demo-camundamodels-service:
+      essential: false
+      cpu_shares: 512
+      mem_limit: 1GB
+  docker_volumes:
+    - name: bpmwebapps
+      scope: task
+run_params:
+  network_configuration:
+    awsvpc_configuration:
+      subnets:
+        - subnet-23b5866a
+      security_groups:
+        - sg-010f859f1a7b1506c
+      assign_public_ip: ENABLED

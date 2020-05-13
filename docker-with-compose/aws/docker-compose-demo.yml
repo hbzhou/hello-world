@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  a20617-poc-demo-camundabpm-service:
+    image: 608014515287.dkr.ecr.us-east-1.amazonaws.com/a206171-ds2-poc-camunda-bpm-platform-ee:7.12.3.1
+    labels:
+      - 'camundabpm'
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: /ecs/a20617-poc-demo-camundabpm-service
+        awslogs-region: us-east-1
+        awslogs-stream-prefix: ecs
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 5
+        window: 120s
+    ports:
+      - '8080:8080'
+    environment:
+      - DB_URL=jdbc:h2:tcp://a20617-camunda-ee-demo-db.fr-nonprod.aws.thomsonreuters.com:1521/test;MVCC=TRUE;TRACE_LEVEL_FILE=0;DB_CLOSE_ON_EXIT=FALSE
+      - DB_USERNAME=sa
+      - DB_PASSWORD=sa
+    volumes:
+      - bpmwebapps:/camunda/webapps/
+  a20617-poc-demo-camundaopt-service:
+    image: 608014515287.dkr.ecr.us-east-1.amazonaws.com/a206171-ds2-poc-camunda-optimize-ee:2.7.0
+    labels:
+      - 'camundaopt'
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: /ecs/a20617-poc-demo-camundaopt-service
+        awslogs-region: us-east-1
+        awslogs-stream-prefix: ecs
+    ports:
+      - '8090:8090'
+      - '8091:8091'
+    environment:
+      - OPTIMIZE_ELASTICSEARCH_HOST=a20617-camunda-ee-demo-db.fr-nonprod.aws.thomsonreuters.com
+  a20617-poc-demo-camundamodels-service:
+    image: 608014515287.dkr.ecr.us-east-1.amazonaws.com/a206171-ds2-poc-camunda-models:latest
+    labels:
+      - 'camundamodels'
+    volumes:
+      - bpmwebapps:/camunda/webapps/
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: /ecs/a20617-poc-demo-camundamodels-service
+        awslogs-region: us-east-1
+        awslogs-stream-prefix: ecs
+volumes:
+  bpmwebapps:
