@@ -23,6 +23,7 @@
         <module>spring-boot-sms-security</module>
         <module>spring-boot-docker</module>
         <module>spring-boot-activiti</module>
+        <module>spring-boot-my-starter</module>
     </modules>
     <properties>
         <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
