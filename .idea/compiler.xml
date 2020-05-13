@@ -6,56 +6,40 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-activiti" />
         <module name="flink-words-count" />
-        <module name="data-structure-learning" />
         <module name="good-printer" />
+        <module name="small-spring-v2" />
         <module name="netty-protobuf" />
-        <module name="spring-cloud-eureka" />
         <module name="flink-mysql-stream" />
         <module name="spring-boot-druid" />
         <module name="spring-boot-admin" />
-        <module name="bad-printer" />
-        <module name="spring-boot-mybatis" />
+        <module name="spring-boot-activiti" />
         <module name="spring-boot-mybatis" />
         <module name="netty-fast-protocol" />
-        <module name="small-spring-v2" />
+        <module name="spring-boot-auto-config" />
         <module name="small-spring-v1" />
         <module name="small-spring-singleton" />
         <module name="spring-boot-shiro" />
-<<<<<<< .mine
-        <module name="java-jdk-sample" />
-        <module name="flink-kafka-stream" />
-=======
         <module name="spring-boot-sms-security" />
         <module name="flink-kafka-stream" />
->>>>>>> .theirs
         <module name="netty-http-server" />
-        <module name="flinkwordscount" />
         <module name="netty-websocket-server" />
         <module name="spring-boot-aop" />
-        <module name="java-dynamic-proxy" />
-        <module name="small-spring-v1 (1)" />
         <module name="spring-boot-docker" />
-        <module name="netty-group-chat" />
-        <module name="spring-cloud-feign" />
+        <module name="netty-hello-world" />
         <module name="interface" />
-        <module name="spring-cloud-feign-pro" />
-        <module name="spring-boot-my-starter" />
         <module name="invoker" />
         <module name="netty-binary-decode" />
-        <module name="spring-boot-docker (1)" />
         <module name="spring-boot-email" />
-        <module name="spring-boot-auto-config" />
         <module name="spring-cloud-zuul" />
         <module name="spring-cloud-feign-consumer" />
         <module name="spring-boot-security" />
-        <module name="spring-boot-docker" />
-        <module name="spring-boot-DataQL" />
-        <module name="spring-boot-sms-security" />
+        <module name="spring-cloud-eureka" />
+        <module name="bad-printer" />
+        <module name="java-jdk-sample" />
         <module name="netty-rpc" />
         <module name="java-design-pattern" />
-        <module name="spring-cloud-feign-provider" />
+        <module name="data-structure-learning" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -67,18 +51,15 @@
       <module name="flink-learning" target="1.8" />
       <module name="flink-mysql-stream" target="1.8" />
       <module name="flink-words-count" target="1.8" />
-      <module name="flinkwordscount" target="1.8" />
       <module name="good-printer" target="1.8" />
       <module name="hello-world" target="1.8" />
       <module name="hello-world-dependencies" target="1.5" />
       <module name="interface" target="1.8" />
       <module name="invoker" target="1.8" />
       <module name="java-design-pattern" target="1.8" />
-      <module name="java-dynamic-proxy" target="1.8" />
       <module name="java-jdk-sample" target="1.8" />
       <module name="netty-binary-decode" target="1.8" />
       <module name="netty-fast-protocol" target="1.8" />
-      <module name="netty-group-chat" target="1.8" />
       <module name="netty-hello-world" target="1.8" />
       <module name="netty-http-server" target="1.8" />
       <module name="netty-learning" target="1.8" />
@@ -88,7 +69,6 @@
       <module name="small-spring" target="1.8" />
       <module name="small-spring-singleton" target="1.8" />
       <module name="small-spring-v1" target="1.8" />
-      <module name="small-spring-v1 (1)" target="1.8" />
       <module name="small-spring-v2" target="1.8" />
       <module name="spi-learning" target="1.8" />
       <module name="spring-boot-activiti" target="1.8" />
@@ -96,24 +76,15 @@
       <module name="spring-boot-all" target="1.8" />
       <module name="spring-boot-aop" target="1.8" />
       <module name="spring-boot-auto-config" target="1.8" />
-      <module name="spring-boot-DataQL" target="1.8" />
       <module name="spring-boot-docker" target="1.8" />
-      <module name="spring-boot-docker (1)" target="1.8" />
       <module name="spring-boot-druid" target="1.8" />
-      <module name="spring-boot-email" target="1.8" />
-      <module name="spring-boot-import-anno" target="1.8" />
-      <module name="spring-boot-my-starter" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-security" target="1.8" />
-      <module name="spring-boot-security-sms" target="1.8" />
       <module name="spring-boot-shiro" target="1.8" />
       <module name="spring-boot-sms-security" target="1.8" />
       <module name="spring-cloud-all" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
-      <module name="spring-cloud-feign" target="1.8" />
       <module name="spring-cloud-feign-consumer" target="1.8" />
-      <module name="spring-cloud-feign-pro" target="1.8" />
-      <module name="spring-cloud-feign-provider" target="1.8" />
       <module name="spring-cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
