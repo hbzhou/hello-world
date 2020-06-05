@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-boot-tdd
+
+server:
+  port: 8085
+
+
