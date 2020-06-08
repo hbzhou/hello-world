@@ -4,9 +4,7 @@ import org.apache.commons.io.FilenameUtils;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
-import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.core.io.support.ResourcePatternUtils;
-import org.springframework.util.ResourceUtils;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

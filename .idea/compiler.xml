@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-activiti" />
         <module name="flink-words-count" />
         <module name="data-structure-learning" />
         <module name="good-printer" />
@@ -27,6 +29,11 @@
         <module name="netty-http-server" />
         <module name="spring-boot-activiti" />
         <module name="spring-boot-aop" />
+        <module name="java-dynamic-proxy" />
+        <module name="small-spring-v1 (1)" />
+        <module name="netty-hello-world" />
+        <module name="spring-boot-DataQL" />
+        <module name="spring-cloud-feign" />
         <module name="interface" />
         <module name="spring-boot-my-starter" />
         <module name="invoker" />
