@@ -3,8 +3,9 @@ package com.itsz.springboot.tdd.controller;
 import com.itsz.springboot.tdd.domain.TbUser;
 import com.itsz.springboot.tdd.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -15,7 +16,12 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/users")
-    public List<TbUser> queryAllUser() {
-        return userService.findAllUser();
+    public ResponseEntity<List<TbUser>> queryAllUser() {
+        return new ResponseEntity<>(userService.findAllUser(), HttpStatus.OK);
+    }
+
+    @PostMapping("/user")
+    public ResponseEntity<TbUser> saveUser(@RequestBody TbUser user) {
+        return new ResponseEntity<>(userService.save(user), HttpStatus.CREATED);
     }
 }

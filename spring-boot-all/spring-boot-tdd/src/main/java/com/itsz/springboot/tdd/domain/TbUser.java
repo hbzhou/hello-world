@@ -1,13 +1,22 @@
 package com.itsz.springboot.tdd.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
+@Entity
 public class TbUser {
 
+    @Id
+    @GeneratedValue
     private int id;
 
     private String username;
 
     private String email;
+
+    public TbUser() {
+    }
 
     public TbUser(int id, String username, String email) {
         this.id = id;

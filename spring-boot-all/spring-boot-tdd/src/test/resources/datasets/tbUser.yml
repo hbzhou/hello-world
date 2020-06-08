@@ -1,8 +1,0 @@
-tbUser:
-  - id: 1
-    username: jeremy
-    passowrd: password
-    phone: 88886666
-    email: localhost@localhost.com
-    created: 1232132131
-    updated: 3432432432

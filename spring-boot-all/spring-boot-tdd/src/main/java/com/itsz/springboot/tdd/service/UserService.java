@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface UserService {
     List<TbUser> findAllUser();
+
+    TbUser save(TbUser user);
 }
